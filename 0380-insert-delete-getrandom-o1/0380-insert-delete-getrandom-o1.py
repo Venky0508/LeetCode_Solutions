@@ -16,10 +16,7 @@ class RandomizedSet:
         if val not in self.randomSet:
             return False
         else:
-            for i in range(len(self.randomSet)):
-                if self.randomSet[i] == val:
-                    self.randomSet = self.randomSet[:i] + self.randomSet[i+1:]
-                    break
+            self.randomSet.remove(val)
             return True
         
 
