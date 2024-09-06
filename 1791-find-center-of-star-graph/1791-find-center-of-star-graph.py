@@ -9,11 +9,6 @@ class Solution:
             common = edge1[0]
         else:
             common = edge1[1]
-            
-        if n > 2:
-            for i in range(2,n):
-                check = edges[i]
-                if common in check:
-                    continue
+
         return common
         
