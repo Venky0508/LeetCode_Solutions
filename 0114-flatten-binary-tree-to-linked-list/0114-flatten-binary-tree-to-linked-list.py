@@ -29,7 +29,7 @@ class Solution:
             head.right = TreeNode(final[i])
             head = head.right
             i += 1
-        return root
+
         
         
         
