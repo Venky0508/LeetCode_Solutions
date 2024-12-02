@@ -1,12 +1,10 @@
 class Solution:
     def floodFill(self, image: List[List[int]], sr: int, sc: int, color: int) -> List[List[int]]:
         directions = [(0, 1), (1, 0), (0, -1), (-1, 0)]
-        rows = len(image)
-        cols = len(image[0])
         result = []
-        for i in range(rows):
+        for i in range(len(image)):
             temp = []
-            for j in range(cols):
+            for j in range(len(image[0])):
                 temp.append(image[i][j])
             result.append(temp)
                 
@@ -23,7 +21,7 @@ class Solution:
 
                 for val in neighbors:
                     x, y = val
-                    if x < rows and x >= 0 and y < cols and y >= 0:
+                    if x < len(image) and x >= 0 and y < len(image[0]) and y >= 0:
                         if image[x][y] == check:
                             need_to_visit.append((x, y))
                         
