@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/identify-the-largest-outlier-in-an-array/">3371. Identify the Largest Outlier in an Array</a></h2><h3>Medium</h3><hr><div><p>You are given an integer array <code>nums</code>. This array contains <code>n</code> elements, where <strong>exactly</strong> <code>n - 2</code> elements are <strong>special</strong><strong> numbers</strong>. One of the remaining <strong>two</strong> elements is the <em>sum</em> of these <strong>special numbers</strong>, and the other is an <strong>outlier</strong>.</p>
+<h2><a href="https://leetcode.com/problems/identify-the-largest-outlier-in-an-array">3371. Identify the Largest Outlier in an Array</a></h2><h3>Medium</h3><hr><p>You are given an integer array <code>nums</code>. This array contains <code>n</code> elements, where <strong>exactly</strong> <code>n - 2</code> elements are <strong>special</strong><strong> numbers</strong>. One of the remaining <strong>two</strong> elements is the <em>sum</em> of these <strong>special numbers</strong>, and the other is an <strong>outlier</strong>.</p>
 
 <p>An <strong>outlier</strong> is defined as a number that is <em>neither</em> one of the original special numbers <em>nor</em> the element representing the sum of those numbers.</p>
 
@@ -51,4 +51,3 @@
 	<li><code>-1000 &lt;= nums[i] &lt;= 1000</code></li>
 	<li>The input is generated such that at least <strong>one</strong> potential outlier exists in <code>nums</code>.</li>
 </ul>
-</div>
