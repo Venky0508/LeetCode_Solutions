@@ -25,3 +25,15 @@ class Solution:
                 ans = prev
 
         return ans
+
+        # count_map = {}
+
+        # for i in arr:
+        #     if str(i) not in count_map:
+        #         count_map[str(i)] = 1
+        #     else:
+        #         count_map[str(i)] += 1
+
+        # sorted_count = dict(sorted(count_map.items(), key = lambda item: item[1], reverse = True))
+
+        # return int(list(sorted_count.keys())[0])
